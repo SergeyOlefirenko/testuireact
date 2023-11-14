@@ -1,0 +1,110 @@
+
+.container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  margin: 20px auto;
+  background-repeat: no-repeat;
+  background-position: contain;
+}
+
+.data{
+  position:fixed;
+  margin-top: 20px;
+  margin-left: 12px;
+}
+input{
+  width: '300px'
+}
+.data input{
+  width: 200px;
+  height: 50px;
+  border: none;
+  background-color: rgb(254, 251, 251);
+  text-align: left;
+  padding-left: 10px;
+  font-size: 24px;
+}
+.data button{
+  margin-left: 10px;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  background-color: rgb(16, 184, 184);
+}
+button p{
+  margin: auto;
+}
+.dataList{
+  margin-top: 75px;
+}
+.checker{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+ flex-wrap: wrap;
+}
+.check{
+  padding-top: 5%;
+  margin-left: 20px;
+}
+.text{
+  padding-top: 5%;
+  margin-left: 20px;
+}
+.bin{
+  position: fixed;
+  padding-top: 1%;
+  margin-left: 20%;
+}
+.counter{
+  position: fixed;
+  margin-top: 465px;
+  margin-left: 7%;
+ 
+}
+@media screen and (max-width: 390px){
+  .container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    background-repeat: no-repeat;
+    background-position: contain;
+  }
+  .dataList{
+    margin-top: 85px;
+  }
+  .data button{
+    margin-left: 7px;
+    width: 60px;
+    height: 60px;
+  }
+  button p{
+    margin: auto;
+  }
+  .checker{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .check{
+    padding-top: 5.5%;
+    margin-left: 20px;
+  }
+  .bin{
+    position: fixed;
+    padding-top: 3.5%;
+    margin-left: 68%;
+  }
+  .counter{
+    position: fixed;
+    margin-top: 465px;
+    margin-left: 22%;
+  }
+  
+  }

@@ -1,0 +1,19 @@
+.menu{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    position: fixed;
+    top: 0%;
+    top:-500px;
+    z-index: 2;
+    transition: all 0.5s ease ;
+}
+.active{
+    top: 0px;
+}
+/* a{
+     color: #F7BF48;
+     font-style: unset;
+     text-decoration: none;
+     font-size: xx-large;
+} */

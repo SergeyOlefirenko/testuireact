@@ -1,0 +1,231 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.app{
+  height: 100vh;
+
+}
+.sections{
+  width: 100%;
+  height: calc(100vh - 70px);
+  position: relative;
+  /* top: 70px; */
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+ 
+}
+.sections >*{
+  width: 100vw;
+  height: calc(100vh - 70px);
+  scroll-snap-align: start;
+}
+@media screen and (min-width: 960px){
+  .menu{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 500px;
+    position: fixed;
+    top: 0%;
+    top:-500px;
+    z-index: 2;
+    transition: all 0.5s ease ;
+  }
+  .active{
+    top: 0px;
+}
+  .menu:hover{
+    cursor: pointer;
+  }
+  .img-size img{
+    width: 10px;
+    height: 10px;
+  }
+  .home{
+    min-height: 100vh;
+  }
+  .sidebar{
+    padding-top: 50%;
+      width: 180px;
+      flex-shrink: 0;
+      /* background-color: #085372; */
+      background-color: transparent;
+      height: 90%;
+      overflow: auto;
+      border-radius: 10px;
+      margin-top: 5%;
+      margin-left: 110px;
+    }
+    .sidebar-title{
+      display: flex;
+      font-size: 1.2em;
+      justify-content: space-between;
+      color: #F7BF48;
+      margin-left: 14px;
+    }
+    .sidebar-item.plain{
+      color: #F7BF48;
+      text-decoration: none;
+      font-size: 1.2em;
+      margin-left: 10px;
+    }
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  input {
+    padding: 1px;
+    font-size: 1.2em;
+  }
+  button{
+    border: none;
+    padding: 10px;
+    background: transparent;
+    color:#419FD9;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  
+  .container{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .register{
+    position: fixed;
+    padding:30px;
+    top:35%;
+    left:24%;
+    right:24%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #419FD9;
+    border-radius: 5px;
+  }
+
+  .register input{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 40px;
+    border: none;
+  }
+  .register button{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: aqua;
+  }
+
+  .chat-box{
+    margin-top: 50px;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .member-list{
+    width: 20%;
+    margin-left: -10px;
+  }
+  
+  .chat-content{
+    width:80%;
+  }
+  
+  .chat-messages{
+    height: 90%;
+    border-left: 1px solid #419FD9;
+  }
+  
+  .send-message{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    border-top: 1px solid #419FD9;
+    padding-top: 5px;
+  }
+  
+  .input-message{
+    width:100%;
+    border: none;
+   background-color: transparent;
+  }
+  .input-message:hover{
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  .send-button{
+    width:4%;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  .member{
+    padding: 10px;
+    background:transparent;
+    cursor: pointer;
+    margin: 5px 0px;
+  }
+  .member.active{
+    color: #419FD9;
+  }
+  .member:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    color:aqua;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .avatar{
+    background-color: #419FD9;
+    padding: 3px 5px;
+    border-radius: 5px;
+    color:#fff;
+  }
+  .avatar.self{
+    color:#000;
+    background-color: aqua;
+  }
+  .message{
+    padding:5px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px;
+  }
+  .message:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    color: aqua;
+  }
+  .message-data{
+    padding:5px;
+  }
+  .message.self{
+    justify-content: end;
+  }

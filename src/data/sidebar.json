@@ -1,0 +1,181 @@
+[
+    {
+        "title": "Home",
+        "path": "/home" 
+    },  
+    {
+                "title": "Menu",
+                "children": [
+                    {
+                        "title": "SignUp",
+                        "path": "/signup"
+                    }
+                    ]
+    },
+    {
+        "title": "Account",
+        "children": [
+            {
+                "title": "Messenger",
+                "path": "/messenger"
+            },
+            {
+                "title": "Taskplanner",
+                "path": "/taskplanner"
+            },
+            {
+                "title": "Converter",
+                "path": "/converter"
+            },
+            {
+                "title": "Payments",
+                "path": "/payments"
+            },
+            {
+                "title": "History",
+                "path": "/history"
+            },
+            {
+                "title": "Private settings",
+                "path": "/privatesettings"
+            }
+            ]
+    },           
+      {
+        "title": "Settings",
+        "children": [
+            {
+                "title": "A",
+                "path": "/a"
+            },
+            {
+                "title": "B",
+                "path": "/b"
+            },
+            {
+                "title": "C",
+                "path": "/c"
+            },
+            {
+                "title": "D",
+                "children": [
+                    {
+                        "title": "DA",
+                        "path": "/da"
+                    },
+                     {
+                        "title": "DB",
+                        "path": "/db"
+                    },
+                     {
+                        "title": "DC",
+                        "path": "/dc"
+                    },
+                     {
+                        "title": "DE",
+                        "path": "/de"
+                    }
+                ]
+            }
+            ]
+    },
+    {
+        "title": "Services",
+        "children": [
+            {
+                "title": "Choose region",
+                "children": [
+                    {
+                        "title": "Europe",
+                        "path": "/europe"
+                    },
+                    {
+                        "title": "North America",
+                        "path": "/northamerica"
+                    },
+                    {
+                        "title": "South America",
+                        "path": "/southamerica"
+                    },
+                    {
+                        "title": "Asia",
+                        "path": "/asia"
+                    },
+                    {
+                        "title": "Africa",
+                        "path": "/africa"
+                    }
+                    ,
+                    {
+                        "title": "Australia & New Zealand",
+                        "path": "/australia&newzealand"
+                    }
+                    ]
+            },
+            {
+                "title": "SA",
+                "path": "/sa"
+            },
+            {
+                "title": "SB",
+                "path": "/sb"
+            },
+            {
+                "title": "SC",
+                "path": "/sc"
+            },
+            {
+                "title": "SD",
+                "path": "/sd"
+            },
+            {
+                "title": "SD",
+                "path": "/sd"
+            }
+            ]
+    }, 
+    {
+        "title": "Map",
+        "children": [
+            {
+                "title": "Use geolocation",
+                "path": "/geolocation"
+            },
+            {
+                "title": "Search",
+                "children": [
+                    {
+                        "title": "MA",
+                        "path": "/ma"
+                    },
+                    {
+                        "title": "MB",
+                        "path": "/mb"
+                    },
+                    {
+                        "title": "MC",
+                        "path": "/mc"
+                    }
+                    ]
+            }
+            ]
+}, 
+    {
+                "title": "Alarm",
+                "path": "/alarm"
+            },
+     {
+        "title": "Language",
+        "children": [
+            {
+                "title": "English",
+                "path": "/english"
+            },
+            {
+                "title": "Deutsch",
+                "path": "/deutsch"
+            }
+            ]
+    }
+   
+]

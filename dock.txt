@@ -1,0 +1,15 @@
+# version: "3.8"
+# services:
+#   react-app:
+#     # Используем собранный образ из Dockerfile
+#     build:
+#       context: .
+#       dockerfile: Dockerfile
+#     # Определяем порт, который будет открыт на хосте
+#     ports:
+#       - "3000:3000"
+#     # Монтируем локальный каталог внутрь контейнера, чтобы можно было видеть изменения в реальном времени
+#     volumes:
+#       - ./src:/usr/src/app/src
+#     # Указываем имя контейнера
+#     container_name: react-container

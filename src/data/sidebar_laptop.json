@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Home",
+        "path": "/home"
+    },
+    {
+        "title": "Меню на ноутбуке",
+        "children": [
+            {
+                "title": "Регистрация на ноутбуке",
+                "path": "/laptop/signup"
+            }
+        ]
+    },
+    {
+        "title": "Аккаунт на ноутбуке",
+        "children": [
+            {
+                "title": "Мессенджер на ноутбуке",
+                "path": "/laptop/messenger"
+            }
+        ]
+    }
+]
